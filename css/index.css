@@ -1,0 +1,132 @@
+ 
+ 
+ body {
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    background: linear-gradient(86.74deg, #7E83D1 -3.71%, #F49F1C 81.49%);
+}
+
+.grid-container {
+
+   display: grid;
+   grid-template-columns: 200px 1fr; /* Una columna de 200px y otra que ocupa el espacio restante */
+   grid-template-rows: auto auto auto 1fr 50; /* Tres filas, la del medio es flexible */
+   gap: 10px; /* Espacio entre los elementos */
+   /* background: #FFF9F5; */
+   grid-template-areas: 
+   "menu-header" "header"
+   "busqueda"    "busqueda"
+   "botones"     "botones"
+   "main"        "main"
+   "footer"      "footer"
+   ;
+
+}
+
+.menu-header {
+   grid-area: menu-header; 
+}
+
+.header {
+   grid-area: header; 
+}
+
+.busqueda {
+   grid-area: busqueda; 
+}
+
+.menu {
+   grid-area: botones; 
+}
+
+.main {
+   grid-area: main; 
+
+   background-color:whitesmoke; 
+
+}
+
+.footer {
+  grid-area: footer; 
+
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+
+  height: 50px;
+}
+
+
+.flex-menu {
+
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+   list-style-type: none
+
+}
+
+
+.card-tendencia {
+
+   /*display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) */
+
+   /* Plantilla/Card/Photo */
+
+   /* Disposición automática */
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 10px;
+   isolation: isolate;
+
+   width: 320px;
+   height: 250px;
+
+   /* Auto layout interior */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+
+}
+
+
+.textbus {
+
+/* Boton fijo outline */
+
+box-sizing: border-box;
+
+/* Disposición automática */
+display: flex; 
+flex-direction: row; 
+align-items: center; 
+padding: 10px 20px 10px 16px; 
+gap: 10px;
+
+/* position: absolute; */
+left: 0%;
+right: 15.62%;
+top: 0%;
+bottom: 0%;
+
+/* White 1 */
+background: #FFF9F5;
+border-radius: 5px;
+
+}
+
