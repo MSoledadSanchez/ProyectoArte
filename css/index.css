@@ -18,45 +18,43 @@
    */
    
    grid-template-columns: 0.2fr 1fr;
-   grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr 0.3fr;
+   grid-template-rows: 0.5fr 0.5fr 2fr 0.3fr;
 
    gap: 10px; /* Espacio entre los elementos */
    /* background: #FFF9F5; */
    grid-template-areas: 
-   "menu-header" "header"
-   "busqueda"    "busqueda"
-   "botones"     "botones"
-   "main"        "main"
-   "footer"      "footer"
+   "menu-header" "menu-header"     
+   "busqueda"     "botones"
+   "principal"    "principal"
+   "pie"          "pie"
    ;
 
 }
 
-.menu-header {
-   grid-area: menu-header; 
-}
-
 .header {
-   grid-area: header; 
+   grid-area: "menu-header"; 
+
 }
 
 .busqueda {
-   grid-area: busqueda; 
+   grid-area: "busqueda"; 
+
 }
 
-.menu {
-   grid-area: botones; 
+.botones   {
+   grid-area: "botones"; 
+
 }
 
-.main {
-   grid-area: main; 
+.principal {
 
+   grid-area: "principal"; 
    background-color:whitesmoke; 
 
 }
 
-.footer {
-   grid-area: footer; 
+.pie {
+   grid-area: "pie"; 
 
    display: block;
    flex-grow: 0;
@@ -75,6 +73,7 @@
 .flex-menu {
 
   display: flex;
+  flex-direction: row;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -83,7 +82,13 @@
   height: 75px;
   align-items: center;
   justify-content: center;
-   list-style-type: none
+  list-style-type: none
+
+}
+
+.logo {
+
+   display: block
 
 }
 
