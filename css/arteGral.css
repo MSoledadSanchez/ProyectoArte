@@ -6,3 +6,18 @@ body {
     font-style: normal;
  
 }
+
+
+.textitu {
+/* Title Medium */
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+/* o 127% */
+
+/* Escala 1 */
+color: #0C1927;
+
+}

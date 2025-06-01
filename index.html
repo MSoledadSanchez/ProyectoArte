@@ -16,13 +16,24 @@
    
     <div class="grid-container">
               
-        <header class="menu-header"> MM 
+        <header class="menu-header"> 
+            
+            <nav >
+                <input type="checkbox" id="menuH">
+                <label for="menuH"> ☰  </label>
+                <ul>
+                    <li>Iniciar Sesion  </li>
+                    <li> <a href="pages/contacto.html" target="_blank">Contacto</a> </li>
+                    <li>Registrarse</li> 
+                    <li>Cerrar Sesion</li>
+                </ul>
+            </nav>
 
             <div class="logo"> <img src="media/logo1-tras.png"> </div>
 
         </header>
 
-        <section class="busqueda"></section>            
+        <section class="busqueda">          
        
             <form>
                     <!-- <label for="search">Buscar:</label> -->
@@ -48,13 +59,37 @@
         </nav>
        
 
-        <main class="principal">Contenido principal
+        <main class="principal">En Tendencia 
 
-            <div class="card-tendencia">
-                <p> Artista 1  </p> 
+            <div class="card-tendencia" categoria="Pintura">
+                
+                <div class="card">
+                    <img src="media/pintura1.png" alt="Pintura 1" title="Pintura" itemprop="image" width="75%" height="75%"> 
+                    <p> Artista 1  </p> 
+                </div>
+
+                <div class="card">
+                    <img src="media/pintura2.png" alt="Pintura 2" title="Pintura" itemprop="image" width="75%" height="75%"> 
+                    <p> Artista 2  </p> 
+                </div>
+
+                <div class="card">
+                    <img src="media/pintura3.png" alt="Pintura 3" title="Pintura" itemprop="image" width="75%" height="75%"> 
+                    <p> Artista 2  </p> 
+                </div>
+
+                <div class="card">
+                    <img src="media/escultura1.png" alt="Escultura 1" title="Escultura" itemprop="image" width="75%" height="75%"> 
+                    <p> Artista 3  </p> 
+                </div>
+
+                <div class="card">
+                    <img src="media/escultura2.png" alt="Escultura 2" title="Escultura" itemprop="image" width="75%" height="75%"> 
+                    <p> Artista 2  </p> 
+                </div>
 
             </div>
-
+           
         </main>
 
         <footer class="pie">
