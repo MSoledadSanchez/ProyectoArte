@@ -6,51 +6,77 @@
 
   <title>Contacto</title>
 
+  <link rel="stylesheet" href="/css/index.css">
+
   <link rel="stylesheet" href="/css/arteGral.css">
 
 </head>
 <body>
-  
-<!-- modify this form HTML and place wherever you want your form -->
-  <p class="text">
+
+  <div class="grid-container">
+              
+    <header class="menu-header"> 
+            
+      <nav >
+        <input type="checkbox" id="menuH">
+        <label for="menuH"> ☰  </label>
+          <ul>
+            <li>Iniciar Sesion  </li>
+            <li> <a href="pages/contacto.html" target="_blank">Contacto</a> </li>
+            <li>Registrarse</li> 
+            <li>Cerrar Sesion</li>
+          </ul>
+      </nav>
+
+      <div class="logo"> <img src="/media/logo1-tras.png"> </div>
+
+    
+    <!-- modify this form HTML and place wherever you want your form -->
+    <h1 class="text">
       Contacto con artistas
       <br><br>
-  </p>
+    </h1>
 
-  <form
-    action="https://formspree.io/f/xldbywwy"
-    method="POST"
-  >
-    <label>
-      Nombre:
-      <input type="text" id="nombre" name="nombre"><br><br>
-    </label>
+  </header>
 
-    <label>
-      Apellido:
-      <input type="text" id="apellido" name="apellido"><br><br>
-    </label>
+  <main class="principal">
 
-    <label>
-      Tu email:
-      <input type="email" name="email"><br><br>
-    </label>
+    <form
+      action="https://formspree.io/f/xldbywwy"
+      method="POST"
+    >
+      <label>
+        Nombre:
+        <input type="text" id="nombre" name="nombre"><br><br>
+      </label>
 
-    <label>
-      Artista:
-      <input type="text" id="artista" name="artista"><br><br>
-    </label>
+      <label>
+        Apellido:
+        <input type="text" id="apellido" name="apellido"><br><br>
+      </label>
 
-    <label>
-      Mensaje al artista:
-      <textarea name="message"></textarea>
-    </label>
+      <label>
+        Tu email:
+        <input type="email" name="email"><br><br>
+      </label>
 
-    <!-- your other form fields go here -->
-    <button type="submit">Send</button>
-  </form>
+      <label>
+        Artista:
+        <input type="text" id="artista" name="artista"><br><br>
+      </label>
+
+      <label>
+        Mensaje al artista:
+        <textarea name="message"></textarea><br><br>
+      </label>
+
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+  </main>
 
 </body>
+
 </html>
 
 
