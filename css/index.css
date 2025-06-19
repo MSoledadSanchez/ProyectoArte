@@ -59,7 +59,7 @@
    flex-grow: 0;
    flex-shrink: 1;
    flex-basis: auto;
-   align-self: auto;
+   align-self: center;
    order: 0;
 
    height: 50px;
@@ -108,62 +108,35 @@
 
 .card {
 
-   /*
-	border-radius: 10px;
-   border-color: black;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-   background-clip: content-box;
-*/
-   /* transition: all .4s; */
-    /*align-self: stretch; */
+   /* Imagen/Cuadrada/Medium */
 
-/* Imagen/Cuadrada/Medium */
+   box-sizing: border-box;
 
-box-sizing: border-box;
+   /* Disposición automática */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
 
-/* Disposición automática */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
+   /* Shadow 2 */
+   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+   border-radius: 8px;
 
-/*
-width: 320px;
-height: 250px;
-*/
-
-/* Shadow 2 */
-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-border-radius: 8px;
-
-/* Auto layout interior */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
-z-index: 0;
+   /* Auto layout interior */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 1;
+   z-index: 0;
 
 }
 
 .card img {
-    object-position: center;
+   object-position: center;
 
-    /* tamaño3 17 
-
-   width: 360px;
-   height: 402px;
-
-   background: url(../media/pintura1.png);
-*/
-/* Auto layout interior */
+   /* Auto layout interior */
    flex: none;
    order: 9;
    flex-grow: 0;
@@ -182,8 +155,8 @@ z-index: 0;
    /* Molecula/Card/Text */
    /* Disposición automática */
    display: flex;
-   flex-direction: column;
-   align-items: flex-start;
+   flex-direction: row;
+   align-items: baseline;
    padding: 1px;
    
 
@@ -206,6 +179,25 @@ z-index: 0;
    order: 0;
    flex-grow: 0;
    z-index: 1;
+}
+
+.text-container {
+  display: flex;        /* Habilita Flexbox para el contenedor de texto */
+  flex-direction: column; /* Alinea el texto verticalmente */
+  align-items: flex-start;
+}
+
+.line1 {
+   margin: 0;  
+   margin-left: 10px;           /* Elimina márgenes predeterminados */
+   color: black;
+   font-weight: bold;
+}
+
+.line1, .line2 {
+   margin: 0;  
+   margin-left: 10px;           /* Elimina márgenes predeterminados */
+   color: grey;
 }
 
 
@@ -300,4 +292,18 @@ a {
   padding: 10px;
   list-style: none;
   border-bottom: 1px solid grey;
+}
+
+
+.social-icons {
+   font-size: 2em; /* Tamaño del icono */
+   margin-right: 10px; /* Espacio entre iconos */
+   color: #333; /* Color del icono */
+}
+
+.social-icons a {
+   margin: 0 10px;
+   color: #333;
+   font-size: 24px;
+   text-decoration: none;
 }
