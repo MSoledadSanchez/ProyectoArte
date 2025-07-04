@@ -6,9 +6,9 @@
 
   <title>Contacto</title>
 
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="../css/index.css">
 
-  <link rel="stylesheet" href="/css/arteGral.css">
+  <link rel="stylesheet" href="../css/arteGral.css">
 
 
 </head>
@@ -29,67 +29,79 @@
           </ul>
       </nav>
 
-      <div class="logo"> <img src="/media/logo1-tras.png"> </div>
+      <div class="logo"> <img src="../media/logo1-tras.png"> </div>
 
-    
-    <!-- modify this form HTML and place wherever you want your form -->
-    <h1 class="text">
-      Contacto con artistas
-      <br><br>
-    </h1>
+    </header>
 
-  </header>
+    <main class="principal" >
 
-  <main >
+      <!-- modify this form HTML and place wherever you want your form -->
+      <h1 class="text">
+        Contacto con artistas
+        <br><br>
+      </h1>
 
-    <div class="formulario-container">
+      <div class="formulario-container">
 
+        <form 
+          action="https://formspree.io/f/xldbywwy" method="POST">
 
-      <form 
-        action="https://formspree.io/f/xldbywwy" method="POST">
+          <div class="formulario-group">
+            <label>
+              Nombre:
+              <input type="text" id="nombre" name="nombre"><br><br>
+            </label>
+          </div>
 
-        <div class="formulario-group">
-          <label>
-            Nombre:
-            <input type="text" id="nombre" name="nombre"><br><br>
-          </label>
-        </div>
+          <div class="formulario-group">
+            <label >
+              Apellido:
+              <input type="text" id="apellido" name="apellido"><br><br>
+            </label>
+          </div>
 
-        <div class="formulario-group">
-          <label >
-            Apellido:
-            <input type="text" id="apellido" name="apellido"><br><br>
-          </label>
-        </div>
+          <div class="formulario-group">
+            <label>
+              Tu email:
+              <input type="email" name="email"><br><br>
+            </label>
+          </div>
 
-        <div class="formulario-group">
-          <label>
-            Tu email:
-            <input type="email" name="email"><br><br>
-          </label>
-        </div>
+          <div class="formulario-group">
+            <label>
+              Artista:
+              <input type="text" id="artista" name="artista"><br><br>
+            </label>
+          </div>
 
-        <div class="formulario-group">
-          <label>
-            Artista:
-            <input type="text" id="artista" name="artista"><br><br>
-          </label>
-        </div>
+          <div class="formulario-group">
+            <label>
+              Mensaje al artista:
+              <textarea name="message"></textarea><br><br>
+            </label>
+          </div>
 
-        <div class="formulario-group">
-          <label>
-            Mensaje al artista:
-            <textarea name="message"></textarea><br><br>
-          </label>
-        </div>
+          <!-- your other form fields go here -->
+          <button class="botones" type="submit">Enviar</button>
 
-        <!-- your other form fields go here -->
-        <button class="botones" type="submit">Enviar</button>
-      </form>
+        </form>
 
-    </div>
+      </div>      <!--class="formulario-container" -->
+      
+    </main>
 
-  </main>
+    <footer class="pie">
+            
+      Desarrollo para el Curso Front-End JS de Buenos Aires Aprende
+
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+            
+    </footer>
+
+  </div>
 
 </body>
 

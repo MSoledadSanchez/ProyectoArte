@@ -29,6 +29,7 @@ color: #0C1927;
 
 
 .formulario-container {
+
   /* Disposición automática */
   display: flex;
   flex-direction: column;
@@ -37,11 +38,13 @@ color: #0C1927;
   padding: 10px 20px;
   gap: 10px;
 
+  /*
   position: absolute;
   width: 360px;
   height: 410px;
   left: calc(50% - 360px/2);
   bottom: 0px;
+  */
 
   /* Principal */
   background-color: #040D50;
@@ -93,11 +96,11 @@ input {
 
 .botones {
 
-  position: absolute;
+  /* position: absolute; */
   width: 320px;
   height: 45px;
-  left: calc(50% - 320px/2);
-  top: 460px;
+  /* left: calc(50% - 320px/2);
+  top: 460px; */
 
   /* Acento */
   background: #F49F1C;
