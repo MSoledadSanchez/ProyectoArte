@@ -1,0 +1,10 @@
+/* Botón Large 2 */
+.botones {
+
+    position: absolute;
+    width: 320px;
+    height: 45px;
+    left: calc(50% - 320px/2);
+    top: 460px;
+
+}

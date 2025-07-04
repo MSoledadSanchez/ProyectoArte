@@ -26,3 +26,157 @@ color: #0C1927;
 
   color: beige;
 }
+
+
+.formulario-container {
+  /* Disposición automática */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 360px;
+  height: 410px;
+  left: calc(50% - 360px/2);
+  bottom: 0px;
+
+  /* Principal */
+  background-color: #040D50;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+ 
+}
+
+
+.formulario-group {
+  margin-bottom: 15px;
+}
+
+.formulario-group label {
+
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+  /* Acento Gradient */
+  background: linear-gradient(135deg, #F49F1C 45.83%, #F2D19E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+
+  /* text-fill-color: transparent; */
+
+}
+  
+input {
+  
+  margin-left: 10px; /*  Espacio entre la etiqueta y el input */
+  background-color: #F2D19E;
+
+}
+
+.formulario-group textarea {
+
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
+
+  height: 100px;
+}
+
+
+.botones {
+
+  position: absolute;
+  width: 320px;
+  height: 45px;
+  left: calc(50% - 320px/2);
+  top: 460px;
+
+  /* Acento */
+  background: #F49F1C;
+  border-radius: 5px;
+
+}
+
+
+
+.etiqueta {
+
+  /* Label Medium */
+  /* font-family: 'Roboto Flex'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* idéntica a la altura del cuadro o 143% */
+
+  /* Acento Gradient */
+  background: linear-gradient(135deg, #F49F1C 45.83%, #F2D19E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+
+
+  /* Auto layout interior */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.ingtexto {
+    
+}
+
+
+
+
+.ver {
+
+/* Disposición automática */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Label */
+
+width: 92px;
+height: 24px;
+
+/* Label Large */
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* idéntica a la altura del cuadro o 150% */
+text-align: center;
+
+/* Principal */
+color: #040D50;
+
+
+/* Auto layout interior */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
