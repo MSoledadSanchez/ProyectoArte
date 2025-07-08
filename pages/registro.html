@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <header>
+    <nav>
+      <a href="#section_form">Formulario</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="section_form">
+      <h2 class="titulo">Formulario</h2>
+      <form class="formulario" id="formulario">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        <input type="number" name="edad" id="edad" placeholder="Edad" required min="7" max="500">
+        <textarea name="mensajeUsuario" id="mensajeUsuario" placeholder="Ingrese su mensaje"></textarea>
+        <button id="enviar">Enviar</button>
+        <button id="limpiar">Limpiar</button>
+      </form>
+
+      <div id="mensaje" class="mensaje">
+        
+      </div>
+
+    </section>
+  </main>
+
+  <script src="../js/registro.js"></script>
+
+
+</body>
+</html>
