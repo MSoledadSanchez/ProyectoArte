@@ -87,10 +87,10 @@
 
 .logo {
 
-   display: block
+   display: block;
+   text-align: center;
 
 }
-
 
 .card-tendencia {
 
@@ -252,6 +252,13 @@ border-radius: 5px;
 
 a {
   text-decoration: none; /* Eliminar subrayado */
+}
+
+.menu-header {
+   display:flex ;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px;
 }
 
 .menu-header ul{
