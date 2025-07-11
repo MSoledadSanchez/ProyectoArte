@@ -42,11 +42,11 @@
   
     display: block;
     /* margin-left: 10px;  Espacio entre la etiqueta y el input */
-    color: white;
+   
     width: 100%;
     background-color: #040D50;
     border: 1px solid hsl(34, 94%, 37%);
-    
+    color: white;
 
     border-radius: 4px;
     box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
