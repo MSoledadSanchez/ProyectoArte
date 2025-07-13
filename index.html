@@ -16,7 +16,7 @@
 </head>
 <body>
    
-    <div class="grid-container">
+    <div class="container">
               
         <header class="menu-header"> 
             
@@ -24,43 +24,44 @@
                 <input type="checkbox" id="menuH">
                 <label for="menuH"> ☰  </label>
                 <ul>
-                    <li>Iniciar Sesion  </li>
+                    <li> <a href="pages/sesion.html" target="_blank">Iniciar Sesion</a>  </li>
                     <li> <a href="pages/contacto.html" target="_blank">Contacto</a> </li>
                     <li> <a href="pages/registro.html" target="_blank">Registrarse</a> </li> 
-                    <li>Cerrar Sesion</li>
+                    <li> <a href="" id = cerrarSesion>Cerrar Sesion</a> </li>
                 </ul>
             </nav>
 
-            <div class="logo"> <img src="media/logo1-tras.png" width="100%" height="100%" style="vertical-align:center"> </div>
+            <div class="logo"> <img src="media/logo1-tras.png" width="100%" height="100%" style="vertical-align:center"> 
+            </div>
+
+            <h1>Elevá tu arte, sé parte de la comunidad</h1> 
 
         </header>
 
-        <section class="busqueda">          
-            <form>
-                    <!-- <label for="search">Buscar:</label> -->
-                    <input class="textbus" type="search" id="search" name="q" placeholder="Ingrese su búsqueda">
-                    <button type="submit">Buscar</button>
-            </form>
-        </section> 
+        <section class="busqueda">    
 
-        <nav class="botones">
+            <h2 id="nombreusu">Ingresante como invitado</h2>
+            
+            <nav class="botones">
 
-            <ul class="flex-menu">
+                <ul class="flex-menu">
+                        
+                    <!-- <li class="navi"><a href="index.html" target="_blank">INICIO</a></li> -->
+                    <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/escultura-tras.png" alt="Escultura"> </a></li>
+                    <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/dibujo-tras.png" alt="Dibujo"> </a></li>
+                    <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/pintura-tras.png" alt="Pintura"> </a></li>
+                    <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/grabado-tras.png" alt="Grabado"> </a></li>
+                    <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/fotografia-tras.png" alt="Fotografia"> </a></li>
+                    <li class="navi"><a href="pages/artistas.html" target="_blank"><img src="media/artista-tras.png" alt="Artista"> </a></li>
+                    <!-- <li class="navi"><a href="pages/contacto.html" target="_blank">CONTACTO</a></li> -->
                     
-                <!-- <li class="navi"><a href="index.html" target="_blank">INICIO</a></li> -->
-                <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/escultura-tras.png" alt="Escultura"> </a></li>
-                <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/dibujo-tras.png" alt="Dibujo"> </a></li>
-                <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/pintura-tras.png" alt="Pintura"> </a></li>
-                <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/grabado-tras.png" alt="Grabado"> </a></li>
-                <li class="navi"><a href="pages/xx.html" target="_blank"> <img src="media/fotografia-tras.png" alt="Fotografia"> </a></li>
-                <li class="navi"><a href="pages/artistas.html" target="_blank"><img src="media/artista-tras.png" alt="Artista"> </a></li>
-                <!-- <li class="navi"><a href="pages/contacto.html" target="_blank">CONTACTO</a></li> -->
-                
-            </ul>       
-        </nav>
-       
+                </ul>       
+            </nav>
+         </section> 
 
-        <main class="principal">En Tendencia 
+        <main class="principal">
+            
+            <h3>En Tendencia</h3>
 
             <div class="card-tendencia" categoria="Pintura">
                 
@@ -83,7 +84,7 @@
                 <div class="card">
                     <img src="media/pintura2.png" alt="Pintura 2" title="Pintura" itemprop="image" width="100%" height="100%"> 
                     <div class="cardmolecula"> 
-                        <p> <img src="media/Juan.png" alt="Pedro" width="42" height="42" style="vertical-align:top">   </p>  
+                        <p> <img src="media/Pedro.png" alt="Pedro" width="42" height="42" style="vertical-align:top">   </p>  
                         <div class="text-container">
                             <p class="line1">Pedro</p>
                             <p class="line2">Nombre de la Obra</p>
@@ -93,17 +94,35 @@
 
                 <div class="card">
                     <img src="media/pintura3.png" alt="Pintura 3" title="Pintura" itemprop="image" width="100%" height="100%"> 
-                    <p class="cardmolecula"> Artista 2  </p> 
+                    <div class="cardmolecula"> 
+                        <p> <img src="media/Delfina.png" alt="Delfina" width="42" height="42" style="vertical-align:top">   </p>  
+                        <div class="text-container">
+                            <p class="line1">Delfina</p>
+                            <p class="line2">Nombre de la Obra</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card">
                     <img src="media/escultura1.png" alt="Escultura 1" title="Escultura" itemprop="image" width="100%" height="100%"> 
-                    <p class="cardmolecula"> Artista 3  </p> 
+                    <div class="cardmolecula"> 
+                        <p> <img src="media/Juan.png" alt="Juan" width="42" height="42" style="vertical-align:top">   </p>  
+                        <div class="text-container">
+                            <p class="line1">Juan</p>
+                            <p class="line2">Nombre de la Obra</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card">
                     <img src="media/escultura2.png" alt="Escultura 2" title="Escultura" itemprop="image" width="100%" height="100%"> 
-                    <p class="cardmolecula"> Artista 2  </p> 
+                    <div class="cardmolecula"> 
+                        <p> <img src="media/Alejandro.png" alt="Alejandro" width="42" height="42" style="vertical-align:top">   </p>  
+                        <div class="text-container">
+                            <p class="line1">Alejandro</p>
+                            <p class="line2">Nombre de la Obra</p>
+                        </div>
+                    </div>                
                 </div>
 
             </div>
@@ -123,6 +142,7 @@
 
     </div>
    
+    <script src="js/index.js"></script>
     <script src="js/favorito.js"></script>
 
 </body>

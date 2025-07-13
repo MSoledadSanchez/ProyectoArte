@@ -9,48 +9,16 @@
     background: linear-gradient(86.74deg, #7E83D1 -3.71%, #F49F1C 81.49%);
 }
 
-.grid-container {
+.container {
 
-   display: grid;
-      
-   grid-template-columns: 0.2fr 1fr;
-   grid-template-rows: 0.5fr 0.5fr auto 0.3fr;
-
-   gap: 10px; /* Espacio entre los elementos */
-
-   grid-template-areas: 
-   "menu-header    menu-header"     
-   "busqueda       botones"
-   "principal      principal"
-   "pie            pie"
-   ;
-
+   display: flex;
+   flex-direction: column; 
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items:stretch; 
+   
 }
 
-.header {
-   grid-area: "menu-header"; 
-   grid-column-start: 1;   
-   grid-column-end: 3;
-
-}
-
-.busqueda {
-   grid-area: "busqueda"; 
-   grid-column: 1 / 2;
-}
-
-.botones   {
-   grid-area: "botones"; 
-}
-
-.principal {
-
-   grid-area: "principal"; 
-   grid-column: 1 / 3;
-
-   /* background-color:whitesmoke;  */
-
-}
 
 .pie {
    grid-area: "pie"; 
@@ -69,6 +37,18 @@
 }
 
 
+.busqueda {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+
+.busqueda h2 {
+   color: white;
+   font-weight: normal;
+}
+
 .flex-menu {
 
   display: flex;
@@ -85,12 +65,7 @@
 
 }
 
-.logo {
 
-   display: block;
-   text-align: center;
-
-}
 
 .card-tendencia {
 
@@ -295,8 +270,11 @@ a {
 .menu-header {
    display:flex ;
    flex-direction: row;
-   align-items: center;
-   gap: 20px;
+   align-items:center;
+   flex-basis: auto;
+   flex-shrink:inherit;
+   /* justify-content: space-between; */
+   gap: 30px;
 }
 
 .menu-header ul{
@@ -338,6 +316,19 @@ a {
   padding: 10px;
   list-style: none;
   border-bottom: 1px solid grey;
+}
+
+.menu-header h1 {
+   text-align: right;
+   color: white;
+
+}
+
+.logo {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   object-fit: contain;
 }
 
 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contyreg.css">
+
+</head>
+<body>
+    
+   <div class="container">
+              
+        <header class="menu-header"> 
+            
+            <nav >
+                <input type="checkbox" id="menuH">
+                <label for="menuH"> ☰  </label>
+                <ul>
+                    <li> <a href="pages/sesion.html" target="_blank">Iniciar Sesion</a>  </li>
+                    <li> <a href="pages/contacto.html" target="_blank">Contacto</a> </li>
+                    <li> <a href="pages/registro.html" target="_blank">Registrarse</a> </li> 
+                    <li>Cerrar Sesion</li>
+                </ul>
+            </nav>
+
+            <div class="logo"> <img src="../media/logo1-tras.png" width="100%" height="100%" style="vertical-align:center"> 
+            </div>
+
+            <h1>Elevá tu arte, sé parte de la comunidad</h1> 
+
+        </header>
+
+        <main >
+
+            <h1 class="text">
+                Registrate
+                <br><br>
+            </h1>
+
+            <section class="formulario-container" id="section_form">
+
+                 <form class="formulario-group" id="formulario"> 
+
+                    <label>
+                        Usuario:
+                        <input type="text" name="Usuario" id="usuarior" >
+                    </label>
+                    
+                    <label>
+                        Contraseña:
+                        <input type="password" name="Contraseña" id="passr" >
+                    </label>
+
+                    <br>
+
+                    <button class="botonform" id="iniciar">Iniciar Sesión</button>
+                 </form>
+
+                <div id="mensajer" class="mensaje">
+          
+                </div>
+
+                <h3 class="textform">
+                    ¿Olvidaste tu contraseña?
+                </h3>
+
+            </section>
+        </main>
+
+        <footer class="pie">
+            
+            Desarrollo para el Curso Front-End JS de Buenos Aires Aprende
+
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+                    
+        </footer>
+
+   </div>
+
+    <script src="../js/sesion.js"></script>
+
+</body>
+</html>

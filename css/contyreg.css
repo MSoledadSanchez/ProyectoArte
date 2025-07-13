@@ -19,7 +19,7 @@
 
 .formulario-group {
     margin-bottom: 15px;
-    color: black;
+    /* color: black; */
 }
 
 .formulario-group label {
@@ -36,6 +36,12 @@
     background-clip: text;  
 
     line-height: 1.9rem;
+
+    /* Auto layout interior */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
 }
   
 .formulario-group input {
@@ -60,7 +66,7 @@
     border: 1px solid hsl(34, 94%, 37%);
     border-radius: 4px;
     box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
-
+    color: white;
     height: 100px;
 }
 
@@ -110,7 +116,11 @@
     color: #F49F1C;
 }
 
-
+.textform   {
+    color: white;
+    font-weight: lighter;
+    font-size: medium;
+}
 
 
 
