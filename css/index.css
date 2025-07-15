@@ -21,8 +21,7 @@
 
 
 .pie {
-   grid-area: "pie"; 
-
+   
    display: block;
    flex-grow: 0;
    flex-shrink: 1;
@@ -36,16 +35,14 @@
 
 }
 
-
 .busqueda {
    display: flex;
    flex-direction: row;
    align-items: center;
 }
 
-
 .busqueda h2 {
-   color: white;
+   color: white; /* #F2D19E; */
    font-weight: normal;
 }
 
@@ -260,12 +257,9 @@ border-radius: 5px;
 }
 
 
-
-/* Menu Hamburguesa */
-
-a {
-  text-decoration: none; /* Eliminar subrayado */
-}
+/* ------------------------------------------------------------------------------------
+      Menu Hamburguesa  /  Logo  /  Frase
+------------------------------------------------------------------------------------*/
 
 .menu-header {
    display:flex ;
@@ -275,6 +269,21 @@ a {
    flex-shrink:inherit;
    /* justify-content: space-between; */
    gap: 30px;
+}
+
+
+a {
+  text-decoration: none; /* Eliminar subrayado */  
+}
+
+
+.menu-header h1 {
+   text-align: right;
+   color: white;
+
+}
+.menu-header .menuAct {
+   color:#F49F1C;
 }
 
 .menu-header ul{
@@ -318,11 +327,7 @@ a {
   border-bottom: 1px solid grey;
 }
 
-.menu-header h1 {
-   text-align: right;
-   color: white;
-
-}
+------------------------------------------------------------------------------------*/
 
 .logo {
    display: flex;
@@ -361,18 +366,20 @@ a {
 
 
 
-
 @media (max-width: 768px) {
 
-  .grid-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-areas:
-      "menu-header"
-      "busqueda"
-      "botones"
-      "principal"
-      "pie";
+  /* ver en celular, el texto ponerlo abajo */
+  
+   .menu-header {
+      display:flex ;
+      flex-direction: column;
+   }
+
+   .busqueda {
+      display: flex;
+      flex-direction: column;
+   }
+
   }
 
-}
+
