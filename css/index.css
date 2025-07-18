@@ -16,30 +16,28 @@
    flex-wrap: wrap;
    justify-content: space-around;
    align-items: stretch;
-   align-self: flex-end;
-   min-height: 100vh
+   /* align-self: flex-end; */
+   /* min-height: 100vh */
    
 }
 
 
 .pie  {    
    
-   
 
-   display: flex;
-   flex-direction: row;
-   
-   /* flex-grow: 0; 
+   display: block;
+   flex-grow: 0; 
+
    flex-shrink: 1;
-   flex-basis: auto;*/
-   margin-top: auto;
+   flex-basis: auto;
+   /* margin-top: auto; */
 
    align-self: center;
    order: 0;
 
    height: 50px;
 
-   /*box-sizing: border-box;*/
+   box-sizing: border-box;
    
 }
 
@@ -74,18 +72,15 @@
 
 .card-tendencia {
 
-   display: flex;
-   /* flex-direction:row; */
-   
-   flex-wrap: wrap;
-
+   display: grid;
+      
     
    gap: 10px 10px;
-   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  */
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
 
-   justify-content: center; 
-   align-items:flex-start;
-   justify-items:auto;
+   justify-content: stretch; 
+   align-items:stretch;
+   justify-items:stretch;
 
 }
 
