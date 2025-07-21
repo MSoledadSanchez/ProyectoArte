@@ -12,7 +12,12 @@ En Inicio de Sesion se valida que exista que el usuario este registrado, y corre
 
 Con Cerrar Sesion se elimina el usuario actual de la LocalStorage.
 
-Se esta trabajando en cargar las obras con un JSON
+Cuando se selecciona el tipo de obras que se quieres ver, desde la pagina principal, carga las imagenes desde un JSON.
+Se carga segpun el parametro que se envía al cargar la página.
+
+Pendiente:
+Cargar mas Obras en JSON
+Se empezo a armar el icono de favorito
 
 
 

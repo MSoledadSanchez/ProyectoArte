@@ -1,0 +1,81 @@
+
+[
+    {
+
+    "id": 0,
+    "titulo": "Fuego en Colores",
+    "artista": "Juliana",
+    "imagenArt": "/media/Juliana.png",
+    "category": "Pintura",
+    "precio": "3500",
+    "image": "/media/pintura1.png"
+
+    },
+
+    {
+    "id": 1,
+    "titulo": "El ojo",
+    "artista": "Pedro",
+    "imagenArt": "/media/Pedro.png",
+    "category": "Pintura",
+    "precio": "3500",
+    "image": "/media/pintura2.png"
+    },
+
+
+    {
+    "id": 2,
+    "titulo": "Rescate peligroso",
+    "artista": "Delfina",
+    "imagenArt": "/media/Delfina.png",
+    "category": "Pintura",
+    "precio": "3500",
+    "image": "/media/pintura3.png"
+    },
+
+
+    {
+    "id": 3,
+    "titulo": "Pensando",
+    "artista": "Juan",
+    "imagenArt": "/media/Juan.png",
+    "category": "Escultura",
+    "precio": "3500",
+    "image": "/media/escultura1.png"
+    },
+
+
+    {
+    "id": 4,
+    "titulo": "EzFuerzo",
+    "artista": "Alejandro",
+    "imagenArt": "/media/Alejandro.png",
+    "category": "Escultura",
+    "precio": "3500",
+    "image": "/media/escultura2.png"
+    },
+
+
+    {
+    "id": 5,
+    "titulo": "Homenaje peligroso",
+    "artista": "Carla",
+    "imagenArt": "/media/Carla.png",
+    "category": "Grabado",
+    "precio": "3500",
+    "image": "/media/Grabado1.png"
+    },
+
+
+    {
+    "id": 6,
+    "titulo": "Mandalas",
+    "artista": "Ludmila",
+    "imagenArt": "/media/Ludmila.png",
+    "category": "Grabado",
+    "precio": "3500",
+    "image": "/media/Grabado2.png"
+    }
+
+
+]
