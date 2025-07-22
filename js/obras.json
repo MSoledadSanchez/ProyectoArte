@@ -8,7 +8,7 @@
     "imagenArt": "/media/Juliana.png",
     "category": "Pintura",
     "precio": "3500",
-    "image": "/media/pintura1.png"
+    "image": "../media/pintura1.png"
 
     },
 
@@ -19,7 +19,7 @@
     "imagenArt": "/media/Pedro.png",
     "category": "Pintura",
     "precio": "3500",
-    "image": "/media/pintura2.png"
+    "image": "../media/pintura2.png"
     },
 
 
@@ -30,7 +30,7 @@
     "imagenArt": "/media/Delfina.png",
     "category": "Pintura",
     "precio": "3500",
-    "image": "/media/pintura3.png"
+    "image": "../media/pintura3.png"
     },
 
 
@@ -41,7 +41,7 @@
     "imagenArt": "/media/Juan.png",
     "category": "Escultura",
     "precio": "3500",
-    "image": "/media/escultura1.png"
+    "image": "../media/escultura1.png"
     },
 
 
@@ -52,7 +52,7 @@
     "imagenArt": "/media/Alejandro.png",
     "category": "Escultura",
     "precio": "3500",
-    "image": "/media/escultura2.png"
+    "image": "../media/escultura2.png"
     },
 
 
@@ -63,7 +63,7 @@
     "imagenArt": "/media/Carla.png",
     "category": "Grabado",
     "precio": "3500",
-    "image": "/media/Grabado1.png"
+    "image": "../media/Grabado1.png"
     },
 
 
@@ -74,7 +74,7 @@
     "imagenArt": "/media/Ludmila.png",
     "category": "Grabado",
     "precio": "3500",
-    "image": "/media/Grabado2.png"
+    "image": "../media/Grabado2.png"
     },
 
     {
