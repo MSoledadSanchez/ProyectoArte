@@ -18,6 +18,7 @@ Se carga segpun el parametro que se envía al cargar la página.
 Pendiente:
 Cargar mas Obras en JSON
 Se empezo a armar el icono de favorito
+Falta trabajar los media-queries
 
 
 
