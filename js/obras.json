@@ -75,6 +75,56 @@
     "category": "Grabado",
     "precio": "3500",
     "image": "/media/Grabado2.png"
+    },
+
+    {
+    "id": 7,
+    "titulo": "Pinos",
+    "artista": "Pedro",
+    "imagenArt": "/media/Pedro.png",
+    "category": "Fotografia",
+    "precio": "3500",
+    "image": "https://images.pexels.com/photos/32528637/pexels-photo-32528637.jpeg"
+    },
+
+    {
+    "id": 8,
+    "titulo": "Descanso Soñado",
+    "artista": "Juliana",
+    "imagenArt": "/media/Juliana.png",
+    "category": "Fotografia",
+    "precio": "3500",
+    "image": "https://th.bing.com/th/id/R.93a596ac297c4b032c153064084097b4?rik=11NX6PkynFgnDQ&pid=ImgRaw&r=0"
+    },
+
+  {
+    "id": 8,
+    "titulo": "Burbujas",
+    "artista": "Carla",
+    "imagenArt": "/media/Carla.png",
+    "category": "Fotografia",
+    "precio": "3500",
+    "image": "https://images.pexels.com/photos/1919030/pexels-photo-1919030.jpeg"
+    },
+
+    {
+    "id": 9,
+    "titulo": "Nuestro Buho",
+    "artista": "Juan",
+    "imagenArt": "/media/Juan.png",
+    "category": "Dibujo",
+    "precio": "3500",
+    "image": "https://img.freepik.com/fotos-premium/exquisito-estilo-animacion-dibujos-animados-historia-ilustracion-fondo-pantalla-pintura-simple_911221-23991.jpg"
+    },
+
+      {
+    "id": 9,
+    "titulo": "Tiranosaurio",
+    "artista": "Alejandro",
+    "imagenArt": "/media/Alejandro.png",
+    "category": "Dibujo",
+    "precio": "3500",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.zAuczgOJ42MHkKjEgsMa2wHaJE?rs=1&pid=ImgDetMain&o=7&rm=3"
     }
 
 
