@@ -17,7 +17,7 @@ if (categoria == "Todos") {
     titulo.innerText = "Todas las Obras";
 }   
 else {
-    titulo.innerText = "Todas las " + categoria + "s";
+    titulo.innerText = categoria + "s";
 };
 
 
